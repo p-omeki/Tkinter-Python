@@ -10,7 +10,7 @@ Window.geometry("300x200")
 Label1 = Label(Window, text="First Name:")
 Label2 = Label(Window, text="Second Name:")
 
-Entry1 = Entry(Window)
+Entry1 = Entry(Window) #The 'Entry' will act as our 'input', it will accepts values. Only applicable in Tkinter
 Entry2 = Entry(Window)
 
 Label1.grid(row=0, column=0)
