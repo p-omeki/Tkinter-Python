@@ -8,7 +8,8 @@ from tkinter import *
 Window = Tk()
 
 def on_button_click():
-    print("Hey, you've just clicked a button")
+    print("Hey, you've just clicked a button") #The output will be printed out as many times as possible, so long as we
+                                                 ##keep on clicking the 'Click Here' button
 #We define the button
 Button1 = Button(Window, text="Click Here", command=on_button_click)
 Button1.pack()
