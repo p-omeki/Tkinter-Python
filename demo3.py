@@ -12,4 +12,12 @@ Label2 = Label(Window, text="Second Name:")
 
 Entry1 = Entry(Window)
 Entry2 = Entry(Window)
+
+Label1.grid(row=0, column=0)
+Label2.grid(row=1, column=0)
+
+Entry1.grid(row=0, column=1)
+Entry2.grid(row=1, column=1)
+
 Window.mainloop()
+#Notice we don't have the '.pack()' in grid layout?
