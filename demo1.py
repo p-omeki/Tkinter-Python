@@ -2,7 +2,7 @@
 '''
 Tkinter is library in python that allows us to create graphical user interfaces, (GUI). With Tkinter you can create
 windows, dialogs, buttons, menus, and other GUI components for your Python applications.
-In the example below, we're going to create a a simple GUI for windows with a display label/text "Hello World"
+In the example below, we're going to create a simple GUI for windows with a display label/text "Hello World"
 '''
 from tkinter import *   ##What the '*' will do is that it will impoert all the tkinter functions in our code.
 
